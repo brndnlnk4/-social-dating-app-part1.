@@ -1,0 +1,120 @@
+ 
+/****jQUERY CONTENT & PRESET***/
+/*****************************/
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #ff4646;
+	background: #ce8c8c;
+	font-weight: normal;
+	color: #ffffff;
+}
+#topSpan{
+    background-color:rgb(217, 103, 103);       
+ }
+#navElement{
+    background-color:rgba(255, 90, 90, 0.30);   
+}
+.menu{
+    padding:0;
+    background-color:rgb(255, 172, 172);   
+}
+ul.usrMenu,
+#usrMenu,
+.menu {
+    margin: 0 auto;
+    list-style-type: none;
+    min-width: 134px;
+}
+.menu > li:hover {
+    background-color: rgba(255, 90, 90, 0.53);  
+    -webkit-transition: .16s background-color;
+    -ms-transition: .16s background-color;
+    -o-transition: .16s background-color;
+    -moz-transition: .16s background-color;
+}
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/*****************************/
+/*********MEM VIEW*************/
+/*****************************/
+
+#content1{
+    border:1px solid white;
+    display: block;
+    min-height:780px;
+    padding:8px 5px;
+}
+
+/*match table*/
+div#matchesTable tbody tr > td{
+    max-width:20%;
+}
+div#matchesTable tr td > span{
+    max-width:120px;
+    margin: 0 auto;
+}
+span#matchCont{
+    margin: 0 auto;
+    padding: 0;
+ }
+span#matchCont a > img{
+    border:3px solid rgba(160, 146, 146, 0.37);
+ }
+span#matchCont a > p {
+    display:none;
+    max-width:120px; 
+    margin:0 auto;
+    left:auto;
+    right:auto;    
+ }
+span#matchCont:hover a > img {
+    border:3px solid rgba(160, 146, 146, 0.87);
+    box-shadow: 0px 2px 4px #555;
+    
+ }
+span#matchCont:hover a > p {
+    display:block;
+    box-shadow: 0px 2px 4px #555;
+    margin-top:-2.5%;
+ }
+/*████████████████████████████████████████████████████████*/  
+/*** MODAL*** MODAL*** MODAL*** MODAL*** MODAL ****/
+/*** MODAL*** MODAL*** MODAL*** MODAL*** MODAL ****/
+/*** MODAL*** MODAL*** MODAL*** MODAL*** MODAL ****/
+.modal{
+ display: none;
+ position: fixed;
+ z-index:1500;
+ left:0;
+ top:0;
+ width:100%;
+ height:100%;
+ overflow:auto;
+ background-color: rgb(0,0,0); 
+ background-color: rgba(0,0,0,0.4);
+}
+.modal-content{
+  font-size: 20px;
+  color: #f0ecec;
+  width:55%; 
+  background-color:#1b2124;
+  margin:5% auto;
+  padding:20px;
+  border:2px solid #222;
+  }
+.modal-content > div{
+   background-color: rgba(0,0,0,0.5);
+   color: #f0ecec;
+}
+.close {
+ color: #444;
+ font-size: 25px;
+ font-weight: bold;}
+.close:hover, .close:focus{
+     color:black;
+     text-decoration:none;
+     cursor: pointer;
+     }
